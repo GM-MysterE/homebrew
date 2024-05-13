@@ -1,0 +1,130 @@
+{
+    "type": "section",
+    "name": "Embarkation Table | RAW",
+    "entries": [
+        "This is the RAW table that dictates generic results without any story elements. Other versions of this table can be created that include more details or specific scenarios based on the tables in the AiME Players Guide or the various location guides.",
+        "The Guide makes the embarkation roll using their Naturecraft skill. This result is modified by the expeditions difficulty by the GM to determine the result below.",
+        {
+            "type": "table",
+            "caption": "Embarkation Roll",
+            "colLabels": [
+                "{@dice d12}",
+                "Result"
+            ],
+            "colStyles": [
+                "col-1 text-center",
+                "col-11"
+            ],
+            "rows": [
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 1
+                        }
+                    },
+                    "+2 to expedition rolls and initial tests on each encounter made with disadvantage. +1 level of exhaustion."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 2
+                        }
+                    },
+                    "1pt level of exhaustion. All rolls made by each character at disadvantage until they succeed in a roll."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 3
+                        }
+                    },
+                    "+1 to all rolls on Expedition Events table. The first roll of each event is made with disadvantage."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 4
+                        }
+                    },
+                    "All terrain types classed as 1 grade harder."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 5
+                        }
+                    },
+                    "1 level of exhaustion."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 6
+                        }
+                    },
+                    "-1 to all skill checks during expedition."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 7
+                        }
+                    },
+                    "+1 to all skill checks during expedition."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 8
+                        }
+                    },
+                    "Ignore first level of exhaustion."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 9
+                        }
+                    },
+                    "All terrain types classed as 1 grade easier."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 10
+                        }
+                    },
+                    "+1 to all rolls on Expedition Events table. First roll in each event is made with advantage"
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 11
+                        }
+                    },
+                    "All characters regain their inspiration."
+                ],
+                [
+                    {
+                        "type": "cell",
+                        "roll": {
+                            "exact": 12
+                        }
+                    },
+                    "+2 to the rolls on the Expedition Events rolls and initial tests made to determine the initial outcome of these encounters should be made with advantage."
+                ]
+            ]
+        }
+    ]
+}
